@@ -7,7 +7,7 @@ This repository takes the quipper subdirectory of google/perf_data_converter and
 For more information, and to submit issues, visit the Google repo at https://github.com/google/perf_data_converter/
 
 ## Example build on clean Ubuntu 18.04
-* Install dependencies plus git, cmake and a compiler.
+* Install dependencies – plus git, cmake and a compiler.
 ```
 sudo apt update
 sudo apt install libssl-dev libelf-dev git cmake clang 
