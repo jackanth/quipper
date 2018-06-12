@@ -6,8 +6,6 @@ This repository takes the quipper subdirectory of google/perf_data_converter and
 
 For more information, and to submit issues, visit the Google repo at https://github.com/google/perf_data_converter/
 
-**THIS IS NOT AN OFFICIAL GOOGLE PRODUCT**
-
 # Example build on clean Ubuntu 18.04
 * Install dependencies plus git, cmake and a compiler.
 ```
