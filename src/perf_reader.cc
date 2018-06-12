@@ -1120,7 +1120,7 @@ bool PerfReader::ReadCPUTopologyMetadata(DataReader* data, size_t size) {
     for (const PerfDataProto_PerfUint32Metadata& proto_uint32_metadata :
          proto_->uint32_metadata()) {
       if (proto_uint32_metadata.type() == HEADER_NRCPUS) {
-        nrcpus = proto_uint32_metadata.data()[0];
+        nrcpus = proto_uint32_metadata.data().Get(0);
       }
     }
 

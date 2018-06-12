@@ -39,7 +39,10 @@ endif()
 include(FindProtobuf)
 find_package(Protobuf REQUIRED)
 include_directories(${PROTOBUF_INCLUDE_DIR})
-protobuf_generate_cpp(PROTO_SRC PROTO_HEADER protobuf/perf_data.proto protobuf/perf_stat.proto)
+set(PROTOBUF_GENERATE_CPP_APPEND_PATH OFF)
+
+file(GLOB_RECURSE proto_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.proto)
+protobuf_generate_cpp(PROTO_SRC PROTO_HEADER ${proto_files})
 
 #------------------------------------------------------------------------------------------------------------------------------------------
 # Build products
@@ -76,18 +79,20 @@ set(QUIPPER_SRCS
 set(QUIPPER_OBJECTS quipper-obj)
 add_library(${QUIPPER_OBJECTS} OBJECT ${QUIPPER_SRCS})
 set_property(TARGET ${QUIPPER_OBJECTS} PROPERTY POSITION_INDEPENDENT_CODE ON)
+message(STATUS ${PROTO_HEADER})
+target_include_directories(${QUIPPER_OBJECTS} PRIVATE include ${CMAKE_CURRENT_BINARY_DIR})
 
 # - write the static library
 set(QUIPPER_STATIC_LIBRARY_NAME quipper-static)
 add_library(${QUIPPER_STATIC_LIBRARY_NAME} STATIC $<TARGET_OBJECTS:${QUIPPER_OBJECTS}>)
 set_target_properties(${QUIPPER_STATIC_LIBRARY_NAME} PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
-target_include_directories(${QUIPPER_STATIC_LIBRARY_NAME} PRIVATE include ${PROTO_HEADER})
+target_include_directories(${QUIPPER_STATIC_LIBRARY_NAME} PRIVATE include ${CMAKE_CURRENT_BINARY_DIR})
 
 # - write the shared library
 set(QUIPPER_SHARED_LIBRARY_NAME quipper-shared)
 add_library(${QUIPPER_SHARED_LIBRARY_NAME} SHARED $<TARGET_OBJECTS:${QUIPPER_OBJECTS}>)
 set_target_properties(${QUIPPER_SHARED_LIBRARY_NAME} PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
-target_include_directories(${QUIPPER_SHARED_LIBRARY_NAME} PRIVATE include ${PROTO_HEADER})
+target_include_directories(${QUIPPER_SHARED_LIBRARY_NAME} PRIVATE include ${CMAKE_CURRENT_BINARY_DIR})
 
 #------------------------------------------------------------------------------------------------------------------------------------------
 # Install products
