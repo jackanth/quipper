@@ -5,10 +5,10 @@
 #ifndef CHROMIUMOS_WIDE_PROFILING_PERF_PROTOBUF_IO_H_
 #define CHROMIUMOS_WIDE_PROFILING_PERF_PROTOBUF_IO_H_
 
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "perf_parser.h"
-#include "perf_reader.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/perf_parser.h"
+#include "quipper/perf_reader.h"
 
 namespace quipper {
 

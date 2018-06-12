@@ -7,8 +7,8 @@
 
 #include <vector>
 
-#include "compat/string.h"
-#include "kernel/perf_event.h"
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_event.h"
 
 // Data structures that are used by multiple modules.
 

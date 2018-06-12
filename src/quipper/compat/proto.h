@@ -11,8 +11,8 @@
 #include "google/protobuf/repeated_field.h"
 #include "google/protobuf/text_format.h"
 #include "google/protobuf/util/message_differencer.h"
-#include "perf_data.pb.h"
-#include "perf_stat.pb.h"
+#include "quipper/perf_data.pb.h"
+#include "quipper/perf_stat.pb.h"
 
 namespace quipper {
 

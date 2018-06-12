@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "data_writer.h"
+#include "quipper/data_writer.h"
 
 #include <stdint.h>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "perf_data_utils.h"
+#include "quipper/perf_data_utils.h"
 
 namespace quipper {
 

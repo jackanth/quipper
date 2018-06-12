@@ -12,11 +12,11 @@
 #include <memory>
 #include <vector>
 
-#include "base/macros.h"
+#include "quipper/base/macros.h"
 
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "perf_data_utils.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/perf_data_utils.h"
 
 struct perf_event_attr;
 

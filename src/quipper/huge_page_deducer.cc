@@ -1,10 +1,10 @@
-#include "huge_page_deducer.h"
+#include "quipper/huge_page_deducer.h"
 
 #include <limits>
 
-#include "perf_data_utils.h"
+#include "quipper/perf_data_utils.h"
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
 using PerfEvent = quipper::PerfDataProto::PerfEvent;
 using MMapEvent = quipper::PerfDataProto::MMapEvent;

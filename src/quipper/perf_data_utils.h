@@ -10,9 +10,9 @@
 
 #include <memory>
 
-#include "binary_data_utils.h"  // for Align<T>
-#include "compat/string.h"
-#include "kernel/perf_internals.h"
+#include "quipper/binary_data_utils.h"  // for Align<T>
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_internals.h"
 
 namespace quipper {
 

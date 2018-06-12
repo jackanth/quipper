@@ -1,7 +1,7 @@
 #ifndef PERF_DATA_CONVERTER_SRC_QUIPPER_HUGE_PAGE_DEDUCER_H_
 #define PERF_DATA_CONVERTER_SRC_QUIPPER_HUGE_PAGE_DEDUCER_H_
 
-#include "compat/proto.h"
+#include "quipper/compat/proto.h"
 
 namespace quipper {
 

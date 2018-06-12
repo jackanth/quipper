@@ -7,9 +7,9 @@
 #include <algorithm>
 #include <vector>
 
-#include "buffer_reader.h"
-#include "compat/string.h"
-#include "compat/test.h"
+#include "quipper/buffer_reader.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
 
 namespace quipper {
 

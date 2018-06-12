@@ -14,13 +14,13 @@
 #include <unordered_set>
 #include <vector>
 
-#include "base/macros.h"
+#include "quipper/base/macros.h"
 
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "kernel/perf_event.h"
-#include "perf_serializer.h"
-#include "sample_info_reader.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_event.h"
+#include "quipper/perf_serializer.h"
+#include "quipper/sample_info_reader.h"
 
 namespace quipper {
 

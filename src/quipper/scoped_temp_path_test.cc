@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "scoped_temp_path.h"
+#include "quipper/scoped_temp_path.h"
 
 #include <string.h>  // for strlen.
 #include <sys/stat.h>
 
 #include <vector>
 
-#include "base/logging.h"
-#include "compat/string.h"
-#include "compat/test.h"
+#include "quipper/base/logging.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
 
 namespace {
 

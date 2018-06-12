@@ -15,20 +15,20 @@
 #include <string>
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/string.h"
-#include "compat/test.h"
-#include "compat/thread.h"
-#include "dso_test_utils.h"
-#include "perf_data_utils.h"
-#include "perf_parser.h"
-#include "perf_reader.h"
-#include "perf_serializer.h"
-#include "perf_test_files.h"
-#include "scoped_temp_path.h"
-#include "test_perf_data.h"
-#include "test_utils.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
+#include "quipper/compat/thread.h"
+#include "quipper/dso_test_utils.h"
+#include "quipper/perf_data_utils.h"
+#include "quipper/perf_parser.h"
+#include "quipper/perf_reader.h"
+#include "quipper/perf_serializer.h"
+#include "quipper/perf_test_files.h"
+#include "quipper/scoped_temp_path.h"
+#include "quipper/test_perf_data.h"
+#include "quipper/test_utils.h"
 
 namespace quipper {
 

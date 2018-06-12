@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "perf_reader.h"
+#include "quipper/perf_reader.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,18 +12,18 @@
 #include <algorithm>
 #include <vector>
 
-#include "base/logging.h"
-#include "base/macros.h"
+#include "quipper/base/logging.h"
+#include "quipper/base/macros.h"
 
-#include "binary_data_utils.h"
-#include "buffer_reader.h"
-#include "buffer_writer.h"
-#include "compat/string.h"
-#include "file_reader.h"
-#include "file_utils.h"
-#include "perf_data_structures.h"
-#include "perf_data_utils.h"
-#include "sample_info_reader.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/buffer_reader.h"
+#include "quipper/buffer_writer.h"
+#include "quipper/compat/string.h"
+#include "quipper/file_reader.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_data_structures.h"
+#include "quipper/perf_data_utils.h"
+#include "quipper/sample_info_reader.h"
 
 namespace quipper {
 

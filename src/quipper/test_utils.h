@@ -11,10 +11,10 @@
 #include <string>
 #include <vector>
 
-#include "compat/string.h"
-#include "compat/test.h"
-#include "file_utils.h"
-#include "perf_parser.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_parser.h"
 
 namespace quipper {
 

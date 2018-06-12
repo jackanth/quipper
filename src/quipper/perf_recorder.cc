@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "perf_recorder.h"
+#include "quipper/perf_recorder.h"
 
 #include <algorithm>
 #include <cstdio>
@@ -10,15 +10,15 @@
 #include <sstream>
 #include <vector>
 
-#include "binary_data_utils.h"
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "perf_option_parser.h"
-#include "perf_parser.h"
-#include "perf_protobuf_io.h"
-#include "perf_stat_parser.h"
-#include "run_command.h"
-#include "scoped_temp_path.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/perf_option_parser.h"
+#include "quipper/perf_parser.h"
+#include "quipper/perf_protobuf_io.h"
+#include "quipper/perf_stat_parser.h"
+#include "quipper/run_command.h"
+#include "quipper/scoped_temp_path.h"
 
 namespace quipper {
 

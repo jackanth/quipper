@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "test_utils.h"
+#include "quipper/test_utils.h"
 
 #include <string.h>
 
@@ -10,14 +10,14 @@
 #include <cstdlib>
 #include <sstream>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/proto.h"
-#include "file_reader.h"
-#include "file_utils.h"
-#include "perf_protobuf_io.h"
-#include "run_command.h"
-#include "string_utils.h"
+#include "quipper/compat/proto.h"
+#include "quipper/file_reader.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_protobuf_io.h"
+#include "quipper/run_command.h"
+#include "quipper/string_utils.h"
 
 using quipper::PerfDataProto;
 using quipper::SplitString;

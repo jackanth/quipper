@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "perf_serializer.h"
+#include "quipper/perf_serializer.h"
 
 #include <stdint.h>
 #include <stdio.h>
@@ -10,16 +10,16 @@
 
 #include <algorithm>  // for std::copy
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "binary_data_utils.h"
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "kernel/perf_event.h"
-#include "perf_data_structures.h"
-#include "perf_data_utils.h"
-#include "perf_parser.h"
-#include "perf_reader.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_event.h"
+#include "quipper/perf_data_structures.h"
+#include "quipper/perf_data_utils.h"
+#include "quipper/perf_parser.h"
+#include "quipper/perf_reader.h"
 
 namespace quipper {
 

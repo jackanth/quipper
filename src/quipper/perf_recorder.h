@@ -8,10 +8,10 @@
 #include <string>
 #include <vector>
 
-#include "base/macros.h"
+#include "quipper/base/macros.h"
 
-#include "compat/string.h"
-#include "perf_reader.h"
+#include "quipper/compat/string.h"
+#include "quipper/perf_reader.h"
 
 namespace quipper {
 

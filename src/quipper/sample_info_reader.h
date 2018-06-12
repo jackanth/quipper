@@ -7,7 +7,7 @@
 
 #include <stdint.h>
 
-#include "kernel/perf_event.h"
+#include "quipper/kernel/perf_event.h"
 
 namespace quipper {
 

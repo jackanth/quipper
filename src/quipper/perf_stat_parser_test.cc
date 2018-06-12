@@ -4,13 +4,13 @@
 
 #include <string>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/string.h"
-#include "compat/test.h"
-#include "file_utils.h"
-#include "perf_stat_parser.h"
-#include "scoped_temp_path.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_stat_parser.h"
+#include "quipper/scoped_temp_path.h"
 
 namespace quipper {
 

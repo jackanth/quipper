@@ -5,7 +5,7 @@
 #ifndef CHROMIUMOS_WIDE_PROFILING_BUFFER_READER_H_
 #define CHROMIUMOS_WIDE_PROFILING_BUFFER_READER_H_
 
-#include "data_reader.h"
+#include "quipper/data_reader.h"
 
 namespace quipper {
 

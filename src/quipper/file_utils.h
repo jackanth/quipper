@@ -7,8 +7,8 @@
 
 #include <vector>
 
-#include "base/logging.h"
-#include "compat/string.h"
+#include "quipper/base/logging.h"
+#include "quipper/compat/string.h"
 
 namespace quipper {
 

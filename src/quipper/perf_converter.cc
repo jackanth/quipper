@@ -8,11 +8,11 @@
 #include <string>
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/log_level.h"
-#include "compat/string.h"
-#include "conversion_utils.h"
+#include "quipper/compat/log_level.h"
+#include "quipper/compat/string.h"
+#include "quipper/conversion_utils.h"
 
 using quipper::FormatAndFile;
 using quipper::kPerfFormat;

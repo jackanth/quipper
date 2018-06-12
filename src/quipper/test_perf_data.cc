@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "test_perf_data.h"
+#include "quipper/test_perf_data.h"
 
 #include <stddef.h>
 
@@ -10,12 +10,12 @@
 #include <ostream>  
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "binary_data_utils.h"
-#include "compat/string.h"
-#include "kernel/perf_internals.h"
-#include "perf_data_utils.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_internals.h"
+#include "quipper/perf_data_utils.h"
 
 namespace quipper {
 namespace testing {

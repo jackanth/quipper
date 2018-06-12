@@ -1,8 +1,8 @@
-#include "huge_page_deducer.h"  
+#include "quipper/huge_page_deducer.h"  
 
-#include "base/logging.h"
-#include "compat/string.h"
-#include "compat/test.h"
+#include "quipper/base/logging.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
 
 
 namespace quipper {

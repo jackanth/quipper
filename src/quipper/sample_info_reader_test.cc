@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sample_info_reader.h"
+#include "quipper/sample_info_reader.h"
 
 #include <byteswap.h>
 
-#include "compat/test.h"
-#include "kernel/perf_event.h"
-#include "kernel/perf_internals.h"
-#include "test_perf_data.h"
-#include "test_utils.h"
+#include "quipper/compat/test.h"
+#include "quipper/kernel/perf_event.h"
+#include "quipper/kernel/perf_internals.h"
+#include "quipper/test_perf_data.h"
+#include "quipper/test_utils.h"
 
 namespace quipper {
 

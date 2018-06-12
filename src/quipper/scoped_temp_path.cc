@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "scoped_temp_path.h"
+#include "quipper/scoped_temp_path.h"
 
 #include <errno.h>
 #include <ftw.h>
@@ -12,7 +12,7 @@
 
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
 namespace {
 

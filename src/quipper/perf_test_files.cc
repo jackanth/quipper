@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "perf_test_files.h"
+#include "quipper/perf_test_files.h"
 
 namespace perf_test_files {
 

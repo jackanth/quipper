@@ -6,11 +6,11 @@
 
 #include <vector>
 
-#include "compat/test.h"
-#include "file_reader.h"
-#include "file_utils.h"
-#include "scoped_temp_path.h"
-#include "test_utils.h"
+#include "quipper/compat/test.h"
+#include "quipper/file_reader.h"
+#include "quipper/file_utils.h"
+#include "quipper/scoped_temp_path.h"
+#include "quipper/test_utils.h"
 
 namespace quipper {
 

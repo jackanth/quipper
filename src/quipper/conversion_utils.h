@@ -7,7 +7,7 @@
 
 #include <string>
 
-#include "compat/string.h"
+#include "quipper/compat/string.h"
 
 namespace quipper {
 

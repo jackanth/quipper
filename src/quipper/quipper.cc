@@ -5,11 +5,11 @@
 #include <sstream>
 #include <string>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/string.h"
-#include "file_utils.h"
-#include "perf_recorder.h"
+#include "quipper/compat/string.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_recorder.h"
 
 namespace {
 

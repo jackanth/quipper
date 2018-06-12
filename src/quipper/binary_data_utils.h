@@ -13,10 +13,10 @@
 #include <type_traits>
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/string.h"
-#include "kernel/perf_internals.h"
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_internals.h"
 
 namespace quipper {
 

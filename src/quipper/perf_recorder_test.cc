@@ -5,14 +5,14 @@
 #include <string>
 #include <vector>
 
-#include "compat/string.h"
-#include "compat/test.h"
-#include "perf_protobuf_io.h"
-#include "perf_reader.h"
-#include "perf_recorder.h"
-#include "perf_serializer.h"
-#include "run_command.h"
-#include "test_utils.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
+#include "quipper/perf_protobuf_io.h"
+#include "quipper/perf_reader.h"
+#include "quipper/perf_recorder.h"
+#include "quipper/perf_serializer.h"
+#include "quipper/run_command.h"
+#include "quipper/test_utils.h"
 
 namespace quipper {
 

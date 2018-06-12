@@ -9,9 +9,9 @@
 #include <ostream>  
 #include <vector>
 
-#include "binary_data_utils.h"
-#include "compat/string.h"
-#include "kernel/perf_internals.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/string.h"
+#include "quipper/kernel/perf_internals.h"
 
 namespace quipper {
 namespace testing {

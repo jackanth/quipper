@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "run_command.h"
+#include "quipper/run_command.h"
 
 #include <vector>
 
-#include "compat/string.h"
-#include "compat/test.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
 
 namespace quipper {
 

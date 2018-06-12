@@ -7,9 +7,9 @@
 
 #include <string>
 
-#include "base/macros.h"
+#include "quipper/base/macros.h"
 
-#include "compat/string.h"
+#include "quipper/compat/string.h"
 
 namespace quipper {
 

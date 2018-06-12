@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "binary_data_utils.h"
+#include "quipper/binary_data_utils.h"
 
 #include <openssl/md5.h>
 #include <sys/stat.h>
@@ -13,8 +13,8 @@
 #include <fstream>  
 #include <iomanip>
 
-#include "base/logging.h"
-#include "base/macros.h"
+#include "quipper/base/logging.h"
+#include "quipper/base/macros.h"
 
 namespace {
 

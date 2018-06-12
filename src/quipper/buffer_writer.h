@@ -5,7 +5,7 @@
 #ifndef CHROMIUMOS_WIDE_PROFILING_BUFFER_WRITER_H_
 #define CHROMIUMOS_WIDE_PROFILING_BUFFER_WRITER_H_
 
-#include "data_writer.h"
+#include "quipper/data_writer.h"
 
 namespace quipper {
 

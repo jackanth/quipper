@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "perf_parser.h"
+#include "quipper/perf_parser.h"
 
 #include <fcntl.h>
 #include <stdint.h>
@@ -16,14 +16,14 @@
 #include <set>
 #include <sstream>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "address_mapper.h"
-#include "binary_data_utils.h"
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "dso.h"
-#include "huge_page_deducer.h"
+#include "quipper/address_mapper.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/dso.h"
+#include "quipper/huge_page_deducer.h"
 
 namespace quipper {
 

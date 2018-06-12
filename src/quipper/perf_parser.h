@@ -15,13 +15,13 @@
 #include <utility>
 #include <vector>
 
-#include "base/macros.h"
+#include "quipper/base/macros.h"
 
-#include "binary_data_utils.h"
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "dso.h"
-#include "perf_reader.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/dso.h"
+#include "quipper/perf_reader.h"
 
 namespace quipper {
 

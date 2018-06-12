@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "perf_data_utils.h"
+#include "quipper/perf_data_utils.h"
 
 #include <string>
 
-#include "base/logging.h"
-#include "compat/proto.h"
+#include "quipper/base/logging.h"
+#include "quipper/compat/proto.h"
 
 namespace quipper {
 

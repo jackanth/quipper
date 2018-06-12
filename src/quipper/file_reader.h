@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-#include "data_reader.h"
+#include "quipper/data_reader.h"
 
 namespace quipper {
 

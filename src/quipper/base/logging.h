@@ -12,7 +12,7 @@
 #include <sstream>
 #include <string>
 
-#include "base/macros.h"
+#include "quipper/base/macros.h"
 
 // Emulate Chrome-like logging.
 

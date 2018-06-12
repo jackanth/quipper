@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "conversion_utils.h"
+#include "quipper/conversion_utils.h"
 
 #include <stdlib.h>
 #include <unistd.h>
@@ -10,14 +10,14 @@
 #include <string>
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/proto.h"
-#include "compat/string.h"
-#include "file_utils.h"
-#include "perf_parser.h"
-#include "perf_protobuf_io.h"
-#include "perf_reader.h"
+#include "quipper/compat/proto.h"
+#include "quipper/compat/string.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_parser.h"
+#include "quipper/perf_protobuf_io.h"
+#include "quipper/perf_reader.h"
 
 namespace quipper {
 

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "binary_data_utils.h"
-#include "compat/test.h"
+#include "quipper/binary_data_utils.h"
+#include "quipper/compat/test.h"
 
 namespace quipper {
 

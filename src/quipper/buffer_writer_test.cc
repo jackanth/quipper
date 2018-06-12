@@ -6,8 +6,8 @@
 
 #include <vector>
 
-#include "buffer_writer.h"
-#include "compat/test.h"
+#include "quipper/buffer_writer.h"
+#include "quipper/compat/test.h"
 
 namespace quipper {
 

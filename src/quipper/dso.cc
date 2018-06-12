@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "dso.h"
+#include "quipper/dso.h"
 
 #include <elf.h>
 #include <fcntl.h>
@@ -16,9 +16,9 @@
 #include <algorithm>
 #include <vector>
 
-#include "base/logging.h"
-#include "compat/string.h"
-#include "file_reader.h"
+#include "quipper/base/logging.h"
+#include "quipper/compat/string.h"
+#include "quipper/file_reader.h"
 
 namespace quipper {
 

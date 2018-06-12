@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "compat/log_level.h"
+#include "quipper/compat/log_level.h"
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
 namespace quipper {
 

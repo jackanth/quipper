@@ -10,16 +10,16 @@
 #include <string>
 #include <vector>
 
-#include "base/logging.h"
+#include "quipper/base/logging.h"
 
-#include "compat/string.h"
-#include "compat/test.h"
-#include "file_utils.h"
-#include "perf_reader.h"
-#include "perf_test_files.h"
-#include "scoped_temp_path.h"
-#include "test_perf_data.h"
-#include "test_utils.h"
+#include "quipper/compat/string.h"
+#include "quipper/compat/test.h"
+#include "quipper/file_utils.h"
+#include "quipper/perf_reader.h"
+#include "quipper/perf_test_files.h"
+#include "quipper/scoped_temp_path.h"
+#include "quipper/test_perf_data.h"
+#include "quipper/test_utils.h"
 
 namespace quipper {
 
