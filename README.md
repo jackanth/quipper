@@ -13,7 +13,7 @@ sudo apt update
 sudo apt install libssl-dev libelf-dev git cmake clang 
 ```
 
-* Install protobuf >v3.0.0 if not already installed
+* Install protobuf >=v3.0.0 if not already installed
 ```
 sudo apt install libprotobuf-dev protobuf-compiler
 ```
